@@ -1,0 +1,15 @@
+
+
+.nav-ul-list{
+    gap:60px;
+}
+
+.carousel-inner{
+    height: 90vh;
+}
+img{
+    height: 44vw !important;
+    width:  100% !important;
+}
+
+
