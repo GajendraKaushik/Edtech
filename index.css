@@ -1,83 +1,122 @@
-
-.body{
-    background-color: rgba(255, 255, 255, 0.756);
+.body {
+  background-color: rgba(255, 255, 255, 0.756);
 }
-.nav-ul-list{
-    gap:60px;
-}
-
-.carousel-inner{
-    height: 42.2vw;
-}
-.carousel-item img{
-    height: 42.2vw !important;
-    width:  100% !important;
+.nav-ul-list {
+  gap: 60px;
 }
 
-.card img{
-    height: 20vw !important;
-
+.carousel-inner {
+  height: 42.2vw;
+}
+.carousel-item img {
+  height: 42.2vw !important;
+  width: 100% !important;
 }
 
-.cources{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    
+.card img {
+  height: 20vw !important;
 }
 
-.cards{
-    background-color: aquamarine;
-    margin-top: 20px;
-    border-radius: 10px;
-    width: 30vw;
-    height: 28vw;
-}
-.cards img{
-    padding: 10px;
-    width: 30vw;
-    height: 15vw;
-}
-.buy{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.cources-details{
-    padding: 10px;
-    font-size: 1vw;
+.cources {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.more-btn{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+.cards {
+  background-color: aquamarine;
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 30vw;
+  height: 28vw;
 }
-.heading-cource{
-    padding-left: 2vw;
+.cards img {
+  padding: 10px;
+  width: 30vw;
+  height: 15vw;
+}
+.buy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cources-details {
+  padding: 10px;
+  font-size: 1vw;
+}
+
+.more-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heading-cource {
+  padding-left: 2vw;
 }
 
 /* Cources styles */
 
-.mycontainer{
-    padding: 10px;
-    margin: 15px;
+.mycontainer {
+  padding: 10px;
+  margin: 15px;
 }
 
-.crds{
-    padding: 10px;
+.crds {
+  padding: 10px;
 }
 
-.product{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .checked {
-    color: orange;
-  }
+  color: orange;
+}
 
+/* ------- Cart Page -------  */
+#cart-container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.course-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.course-details {
+  flex: 2;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+}
+
+.quantity {
+  margin: 0 10px;
+}
+
+#total {
+  margin-top: 20px;
+  text-align: right;
+}
+
+#checkout-btn {
+  background-color: #358ed6;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+#checkout-btn:hover {
+  background-color: #367cdd;
+}
